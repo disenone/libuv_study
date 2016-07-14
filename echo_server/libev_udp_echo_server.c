@@ -12,7 +12,7 @@
 #include <ev.h>
 #include "dbg.h"
 
-// echo_server based on kcpev, 中文
+// echo_server based on libev and udp
 //
 #define PORT "12321"	// 连接端口
 #define ECHO_LEN	1025
